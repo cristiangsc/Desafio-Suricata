@@ -1,0 +1,61 @@
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    height: 100vh;
+    margin: 0;
+}
+
+nav.bg-light {
+    background-color: #E83E8C !important;
+    height: 100px;
+}
+
+.nav-link {
+    color: aliceblue !important;
+}
+
+.card-link {
+    text-decoration: none;
+}
+
+.list-group {
+    font-size: 13px;
+}
+
+.card-title {
+    font-weight: 700;
+}
+
+h1 {
+    font: normal normal bold 60px/82px Open Sans;
+    color: #707070;
+}
+
+.barra1 {
+    height: 160px;
+    background: #17A2B8;
+}
+
+.barra2 {
+    height: 160px;
+    background-color: #E83E8C;
+}
+
+.text-footer {
+    font: normal normal bold 40px/55px Open Sans;
+    padding: 5% 0;
+}
+
+.centrar {
+    padding: 5% 0;
+}
+
+@media (max-width: 576px) {
+    .show-barra1 {
+        display: none !important;
+    }
+    .centrar-card {
+        width: 65%;
+    }
+}
